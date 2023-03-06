@@ -1,0 +1,94 @@
+
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+        body{
+            margin: 10px;
+            background-color: white;
+        }
+        label.logo{
+          color: aquamarine;
+          font-size: 35px;
+          line-height: 55px;
+          padding: 50px;
+          font-weight: bold;
+        }
+        label.logo:hover{
+            
+            color: blue;
+            
+        }
+        nav .fix{
+         float: right;
+         margin-right: 20px;
+        }
+        nav .fix li{
+         display: inline-block;
+         line-height: 0;
+         margin: 0 5px;
+        }
+
+        nav .fix li a{
+         color: blue;
+         font-size: 17px;
+         padding: 7px 13px;
+         border-radius: 3px;
+         text-decoration: none;
+        }
+
+        .fix a:hover{
+        border: solid 1px blue;
+        transition: .5s;
+        color: aquamarine;
+        }
+        
+
+        #content{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 50px;
+        }
+        .content{
+            width: 500px;
+        }
+        #content h2{
+            color: aquamarine;
+            font-size: 60px;
+            line-height: 55px;
+            font-family: 'Poppins', sans-serif;
+        }
+        .content h2 span{
+            color: blue;
+            font-size: 50px;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+          
+        
+        .content a{
+            color: deepskyblue;
+            font-weight: bold;
+            font-family: 'Poppins', sans-serif;
+            margin-right: 10px;
+            padding: 15px 30px;
+            text-decoration: none;
+            border: 2px solid blue;
+            border-radius: 30px;
+           
+
+        }
+        
+        .content .active{
+            background: blue;
+            color: aquamarine;
+        }
+        
+        .explore_btn:hover{
+          background-color: blue;
+          color: white;
+
+        }
+
+
+
+        
+    
